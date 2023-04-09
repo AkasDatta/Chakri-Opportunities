@@ -1,0 +1,9 @@
+h1{
+    font-size: calc(50px + 1vw);
+}
+span{
+    color: #9873FF;
+}
+.started{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
