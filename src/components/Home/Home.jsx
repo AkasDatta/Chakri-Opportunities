@@ -5,11 +5,11 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className='mt-4'>
+        <div className='m-4'>
             <Container>
                 <Row>
                     <Col md={6}>
-                    <h1>One Step <br /> Closer To Your <br /><span>Dream Job</span></h1>
+                    <h1 className='mt-3'>One Step <br /> Closer To Your <br /><span>Dream Job</span></h1>
                     <p className='py-2'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <Button className="p-4 py-3 fw-bold started">Get Started</Button>
                     </Col>
