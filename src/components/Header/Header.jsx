@@ -15,7 +15,7 @@ const Header = () => {
                     <Nav.Link className='link-color' as={Link} to="/">Home</Nav.Link>
                     <Nav.Link as={Link} to="/">Statistics</Nav.Link>
                     <Nav.Link as={Link} to="/">Applied Jobs</Nav.Link>
-                    <Nav.Link as={Link} to="/contact">Blog</Nav.Link>
+                    <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                     </Nav>
                     <Form inline>
                     <Button className="p-4 py-3 fw-bold">Start Applying</Button>

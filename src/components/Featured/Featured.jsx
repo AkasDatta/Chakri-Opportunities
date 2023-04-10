@@ -2,11 +2,11 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 
 const Featured = ({feature}) => {
-    const{id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary} = feature;
+    // const{id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary} = feature;
     return (
         <div>
             <Card className='featured-card m-2'>
-                <Card.Img variant="top" src={company_logo} />
+                <Card.Img variant="top" src="https://example.com/akasdatta.jpg" />
                 <Card.Body>
                     <Card.Title>Akas Datta</Card.Title>
                     <Card.Text>
