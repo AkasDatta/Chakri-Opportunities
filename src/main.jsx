@@ -10,8 +10,6 @@ import Home from './components/Home/Home';
 import Category from './components/Category/Category';
 
 
-
-
 const router = createBrowserRouter([
   {
     path: '/',
