@@ -13,7 +13,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto fw-bold">
                     <Nav.Link className='link-color' as={Link} to="/">Home</Nav.Link>
-                    <Nav.Link as={Link} to="/">Statistics</Nav.Link>
+                    <Nav.Link as={Link} to="/chart">Statistics</Nav.Link>
                     <Nav.Link as={Link} to="/">Applied Jobs</Nav.Link>
                     <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                     </Nav>

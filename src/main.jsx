@@ -11,6 +11,7 @@ import Category from './components/Category/Category';
 import Featured from './components/Featured/Featured';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Blog from './components/Blog/Blog';
+import Charts from './components/Charts/Charts';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
         loader: () => fetch('categorys.json')
+      },
+      {
+        path: '/chart',
+        element: <Charts></Charts>
       },
       {
         path: '/blog',
