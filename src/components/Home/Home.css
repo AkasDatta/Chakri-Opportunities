@@ -7,3 +7,26 @@ span{
 .started{
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
 }
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width: 768px) {
+    .category-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap;
+        gap: 30px;
+    
+    }
+}
+@media screen and (max-width: 576px) {
+    .category-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-wrap: wrap;
+     
+    }
+}

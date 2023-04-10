@@ -1,3 +1,16 @@
 .box{
     background-color:  #F9F9FF;
+    border: 0;
+    padding: 20px;
+    margin: 10px;
 }
+.box img {
+    width: 20%;
+    height: 20%;
+    margin: 7px;
+    border-radius: 8px;
+}
+
+
+
+
