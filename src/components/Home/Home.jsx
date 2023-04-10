@@ -4,10 +4,12 @@ import myImage from './image/job-women.jpg';
 import './Home.css'
 import Category from '../Category/Category';
 import { useLoaderData } from 'react-router-dom';
+import Featured from '../Featured/Featured';
 
 
 const Home = () => {
     const categorys = useLoaderData();
+    const features = useLoaderData();
 
     return (
         <div>
@@ -29,7 +31,7 @@ const Home = () => {
                 <div className='bg-white container mb-5'>
                         <h2 className='fs-1 pt-5 text-center'>Job Category List</h2>
                         <p className='text-center p-2'>Explore thousands of job opportunities with all the information you need. Its your future.</p>
-                    <div className="category-container">
+                    <div className="category-container pb-5">
                         {
                             categorys.map(category => <Category
                                 key={category.id}
@@ -39,7 +41,20 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
+            <div>
+                <div className='bg-white container mb-5'>
+                        <h2 className='fs-1 pt-5 text-center'>Featured Jobs</h2>
+                        <p className='text-center p-2'>Explore thousands of job opportunities with all the information you need. Its your future.</p>
+                    <div className="featured-container m-4">
+                        {
+                            features.map(feature => <Featured
+                                key={feature.id}
+                                feature ={feature}
+                            ></Featured>)
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
       
     );

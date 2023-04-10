@@ -1,0 +1,10 @@
+.error{
+    margin-top: 200px;
+}
+.no-decoration{
+    text-decoration: none;
+}
+.error button{
+    background-color: #9873FF;
+    border: #9873FF;
+}
