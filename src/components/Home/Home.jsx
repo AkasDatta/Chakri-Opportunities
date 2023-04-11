@@ -17,6 +17,11 @@ const Home = () => {
         .then(data => setCategoryList(data))
     }, [])
 
+    const [showAll, setShowAll] = useState(false);
+    const handleShowAll = () =>{
+        setShowAll(true);
+    };
+
     return (
         <div>
             <div className='m-4'>
@@ -35,7 +40,7 @@ const Home = () => {
             </div>
 
             <div>
-                <div className='bg-white container mb-5'>
+                <div className='bg-white container mb-5 ps-3'>
                         <h2 className='fs-1 pt-5 text-center'>Job Category List</h2>
                         <p className='text-center p-2'>Explore thousands of job opportunities with all the information you need. Its your future.</p>
                     <div className="category-container pb-5">
@@ -55,14 +60,16 @@ const Home = () => {
                         <p className='text-center p-2'>Explore thousands of job opportunities with all the information you need. Its your future.</p>
                     <div className="featured-container">
                         {
-                            features.map(feature => <Featured
+                            features?.slice(0, showAll? 6 : 4).map(feature => <Featured
                                 key={feature.id}
                                 feature ={feature}
                             ></Featured>)
                         }
                     </div>
                    <div className='text-center'>
-                        <Button className="p-4 py-3 mb-4 fw-bold seeAll">See All Jobs</Button>
+                      {
+                        !showAll && (<Button onClick={handleShowAll} className="p-4 py-3 mb-4 fw-bold seeAll">See All Jobs</Button>)
+                      }
                    </div>
                 </div>
             </div>
