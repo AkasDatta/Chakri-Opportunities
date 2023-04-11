@@ -5,7 +5,7 @@
         "job_title": "Web Developer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Remote",
-        "location": "Any Location",
+        "location": "Dhaka, Bangladesh",
         "fulltime_or_parttime": "Full-time",
         "salary": "$80,000 - $100,000 per year",
         "job_description": "We're seeking a Web Developer to design and develop high-quality web applications.",
@@ -55,20 +55,20 @@
       },
       {
         "id": 4,
-        "company_logo": "./assets/Logo/Twitter-Logo-2010.png",
-        "job_title": "Graphic Designer",
-        "company_name": "Twitter",
-        "remote_or_onsite": "Remote",
-        "location": "Any Location",
+        "company_logo": "./assets/Logo/linkedin.png",
+        "job_title": "Customer Service Representative",
+        "company_name": "LinkedIn",
+        "remote_or_onsite": "Onsite",
+        "location": "Miami, FL",
         "fulltime_or_parttime": "Part-time",
-        "salary": "$30 - $40 per hour",
-        "job_description": "We're looking for a talented Graphic Designer to create visual concepts and designs for our clients.",
-        "job_responsibilities": "Responsibilities include: collaborating with clients to understand their design needs, developing creative concepts and layouts, and producing high-quality designs for print and digital media.",
-        "educational_requirements": "Bachelor's or Master's degree in Graphic Design, Fine Arts or related field.",
-        "experiences": "Minimum of 2 years of experience in graphic design, with a strong portfolio showcasing design skills and creativity.",
+        "salary": "$15 - $20 per hour",
+        "job_description": "We're seeking a Customer Service Representative to provide exceptional customer service and support to our clients.",
+        "job_responsibilities": "Responsibilities include: answering customer inquiries, resolving customer complaints, maintaining customer accounts and records.",
+        "educational_requirements": "High school diploma or equivalent, with customer service training or certification preferred.",
+        "experiences": "Minimum of 1 year of experience in customer service or related field, with strong communication and interpersonal skills.",
         "contact_information": {
-          "phone": "555-9012",
-          "email": "jobs@creativeco.com"
+          "phone": "555-1234",
+          "email": "jobs@companyxyz.com"
         }
       },
       {
@@ -91,20 +91,20 @@
       },
       {
         "id": 6,
-        "company_logo": "./assets/Logo/linkedin.png",
-        "job_title": "Customer Service Representative",
-        "company_name": "LinkedIn",
-        "remote_or_onsite": "Onsite",
-        "location": "Miami, FL",
+        "company_logo": "./assets/Logo/Twitter-Logo-2010.png",
+        "job_title": "Graphic Designer",
+        "company_name": "Twitter",
+        "remote_or_onsite": "Remote",
+        "location": "Any Location",
         "fulltime_or_parttime": "Part-time",
-        "salary": "$15 - $20 per hour",
-        "job_description": "We're seeking a Customer Service Representative to provide exceptional customer service and support to our clients.",
-        "job_responsibilities": "Responsibilities include: answering customer inquiries, resolving customer complaints, maintaining customer accounts and records.",
-        "educational_requirements": "High school diploma or equivalent, with customer service training or certification preferred.",
-        "experiences": "Minimum of 1 year of experience in customer service or related field, with strong communication and interpersonal skills.",
+        "salary": "$30 - $40 per hour",
+        "job_description": "We're looking for a talented Graphic Designer to create visual concepts and designs for our clients.",
+        "job_responsibilities": "Responsibilities include: collaborating with clients to understand their design needs, developing creative concepts and layouts, and producing high-quality designs for print and digital media.",
+        "educational_requirements": "Bachelor's or Master's degree in Graphic Design, Fine Arts or related field.",
+        "experiences": "Minimum of 2 years of experience in graphic design, with a strong portfolio showcasing design skills and creativity.",
         "contact_information": {
-          "phone": "555-1234",
-          "email": "jobs@companyxyz.com"
+          "phone": "555-9012",
+          "email": "jobs@creativeco.com"
         }
       }
     ]

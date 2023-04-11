@@ -1,0 +1,9 @@
+.card-img{
+    width: 25%;
+    height: 25%;
+    margin: 7px;
+}
+.details{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border: #9873FF;
+}

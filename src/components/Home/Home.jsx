@@ -45,7 +45,7 @@ const Home = () => {
                 <div className='bg-white container mb-5'>
                         <h2 className='fs-1 pt-5 text-center'>Featured Jobs</h2>
                         <p className='text-center p-2'>Explore thousands of job opportunities with all the information you need. Its your future.</p>
-                    <div className="featured-container m-4">
+                    <div className="featured-container">
                         {
                             features.map(feature => <Featured
                                 key={feature.id}
@@ -53,6 +53,9 @@ const Home = () => {
                             ></Featured>)
                         }
                     </div>
+                   <div className='text-center'>
+                        <Button className="p-4 py-3 mb-4 fw-bold seeAll">See All Jobs</Button>
+                   </div>
                 </div>
             </div>
         </div>
