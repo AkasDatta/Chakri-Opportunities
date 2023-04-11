@@ -14,6 +14,7 @@ import Blog from './components/Blog/Blog';
 import Charts from './components/Charts/Charts';
 
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -23,8 +24,15 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('categorys.json'),
-        loader: () => fetch('jobDetails.json')
+        loader: () => fetch('/jobDetails.json')
+      },
+      // {
+      //   path: '/',
+
+      // },
+      {
+        path: '/category',
+        element: <Category></Category>,
       },
       {
         path: '/chart',
@@ -33,11 +41,6 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
-      },
-      {
-        path: '/category',
-        element: <Category></Category>
-    
       },
       {
         path:'/featured',

@@ -6,7 +6,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Featured = ({feature}) => {
     const{id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary} = feature;
-    console.log(feature)
+    // console.log(feature)
     return (
         <div>
             <Card className='featured-card m-2 p-4'>

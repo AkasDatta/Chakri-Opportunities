@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Form, Button } from 'react-bootstrap';
-import './Header.css'
+import './Navigation.css'
 
-const Header = () => {
+const Navigation = () => {
     return (
         <div className='mt-4'>
             <div className='container'>
@@ -27,4 +27,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navigation;

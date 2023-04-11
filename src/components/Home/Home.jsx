@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import myImage from './image/job-women.jpg';
 import './Home.css'
-import Category from '../Category/Category';
 import { useLoaderData } from 'react-router-dom';
 import Featured from '../Featured/Featured';
+import Category from '../Category/Category';
 
 
 const Home = () => {
-    const categorys = useLoaderData();
     const features = useLoaderData();
+
+    const [categoryList, setCategoryList] = useState([]);
+    useEffect(() => {
+        fetch('/category.json')
+        .then(res => res.json())
+        .then(data => setCategoryList(data))
+    }, [])
 
     return (
         <div>
@@ -27,13 +33,14 @@ const Home = () => {
                     </Row>
                 </Container>
             </div>
+
             <div>
                 <div className='bg-white container mb-5'>
                         <h2 className='fs-1 pt-5 text-center'>Job Category List</h2>
                         <p className='text-center p-2'>Explore thousands of job opportunities with all the information you need. Its your future.</p>
                     <div className="category-container pb-5">
                         {
-                            categorys.map(category => <Category
+                            categoryList.map(category => <Category
                                 key={category.id}
                                 category ={category}
                             ></Category>)
@@ -41,6 +48,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            
             <div>
                 <div className='bg-white container mb-5'>
                         <h2 className='fs-1 pt-5 text-center'>Featured Jobs</h2>
@@ -59,7 +67,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-      
     );
 };
 
