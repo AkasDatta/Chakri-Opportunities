@@ -12,6 +12,7 @@ import Featured from './components/Featured/Featured';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Blog from './components/Blog/Blog';
 import Charts from './components/Charts/Charts';
+import JobDetails from './components/JobDetails/JobDetails';
 
 
 
@@ -26,13 +27,13 @@ const router = createBrowserRouter([
         element: <Home></Home>,
         loader: () => fetch('/jobDetails.json')
       },
-      // {
-      //   path: '/',
-
-      // },
       {
         path: '/category',
         element: <Category></Category>,
+      },
+      {
+        path: '/jobDetails/:id',
+        element: <JobDetails></JobDetails>
       },
       {
         path: '/chart',

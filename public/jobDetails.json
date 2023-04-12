@@ -12,10 +12,9 @@
         "job_responsibilities": "Responsibilities include: developing and maintaining web applications using programming languages such as HTML, CSS, JavaScript and PHP, collaborating with cross-functional teams to identify and solve technical problems.",
         "educational_requirements": "Bachelor's degree in Computer Science or related field.",
         "experiences": "Minimum of 3 years of experience in web development, with proficiency in programming languages such as HTML, CSS, JavaScript and PHP.",
-        "contact_information": {
         "phone": "555-1234",
-        "email": "jobs@techinc.com"
-      }
+        "email": "jobs@techinc.com",
+        "address": "55 Savar - Ashulia Rd, Savar, Bangladesh"
       },
       {
         "id": 2,
@@ -30,10 +29,9 @@
         "job_responsibilities": "Responsibilities include: developing and executing marketing strategies, managing advertising campaigns, analyzing market trends and competitor activities, and collaborating with cross-functional teams to drive business growth.",
         "educational_requirements": "Bachelor's or Master's degree in Marketing, Business Administration or related field.",
         "experiences": "Minimum of 5 years of experience in marketing, preferably in a managerial role.",
-        "contact_information": {
-          "phone": "555-1234",
-          "email": "jobs@xyzcorp.com"
-        }
+      "phone": "555-1234",
+      "email": "jobs@xyzcorp.com",
+      "address": "123 Main St, Anytown, CA 12345, USA"
       },
       {
         "id": 3,
@@ -48,10 +46,9 @@
         "job_responsibilities": "Responsibilities include: preparing financial statements and reports, ensuring compliance with accounting principles and regulations, analyzing financial data to identify trends and opportunities for improvement.",
         "educational_requirements": "Bachelor's degree in Accounting or related field, and a CPA certification.",
         "experiences": "Minimum of 5 years of experience in accounting, with knowledge of accounting principles and regulations.",
-        "contact_information": {
-          "phone": "555-1234",
-          "email": "jobs@companyxyz.com"
-        }
+        "phone": "555-1234",
+        "email": "jobs@companyxyz.com",
+        "address": "23 Baker St, London W1U 8EQ, UK"
       },
       {
         "id": 4,
@@ -66,10 +63,9 @@
         "job_responsibilities": "Responsibilities include: answering customer inquiries, resolving customer complaints, maintaining customer accounts and records.",
         "educational_requirements": "High school diploma or equivalent, with customer service training or certification preferred.",
         "experiences": "Minimum of 1 year of experience in customer service or related field, with strong communication and interpersonal skills.",
-        "contact_information": {
-          "phone": "555-1234",
-          "email": "jobs@companyxyz.com"
-        }
+        "phone": "555-1234",
+        "email": "jobs@companyxyz.com",
+        "address": "Galerie de la Reine 10, 1000 Brussels, Belgium"
       },
       {
         "id": 5,
@@ -84,10 +80,9 @@
         "job_responsibilities": "Responsibilities include: identifying new sales opportunities, developing sales strategies and plans, delivering sales presentations and proposals to prospective clients.",
         "educational_requirements": "Bachelor's degree in Marketing or related field.",
         "experiences": "Minimum of 3 years of experience in sales, with a proven track record of meeting or exceeding sales targets.",
-        "contact_information": {
-          "phone": "555-1234",
-          "email": "jobs@companyabc.com"
-        }
+        "phone": "555-1234",
+        "email": "jobs@companyabc.com",
+        "address": "Piazza San Marco, 30100 Venice, Italy"
       },
       {
         "id": 6,
@@ -102,10 +97,8 @@
         "job_responsibilities": "Responsibilities include: collaborating with clients to understand their design needs, developing creative concepts and layouts, and producing high-quality designs for print and digital media.",
         "educational_requirements": "Bachelor's or Master's degree in Graphic Design, Fine Arts or related field.",
         "experiences": "Minimum of 2 years of experience in graphic design, with a strong portfolio showcasing design skills and creativity.",
-        "contact_information": {
-          "phone": "555-9012",
-          "email": "jobs@creativeco.com"
-        }
+        "phone": "555-9012",
+        "email": "jobs@creativeco.com",
+        "address": "5th Avenue, New York, NY 10001, USA" 
       }
     ]
-  
