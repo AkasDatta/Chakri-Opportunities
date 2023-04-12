@@ -24,7 +24,6 @@ const JobDetails = () => {
         if(exists) {
             setFeaturedJobData(exists || {});
         }
-        // console.log(exists)
     }, [featuredJobs]);
 
     const {job_description, job_responsibilities, educational_requirements, experiences, salary, job_title, phone, email, address} = featuredJobData;
@@ -38,6 +37,7 @@ const JobDetails = () => {
     }
 
         return (
+          <div>
             <Row className='m-5 px-5'>
             <Col md={8}>
               <Card className='border-0  bg-light'>
@@ -74,10 +74,12 @@ const JobDetails = () => {
                 </Card.Body>
               </Card>
               <div className=' text-center px-5'>
-              <button className='mt-3 applyBtn px-5 py-3 rounded text-light fw-bold border-0'>Apply Now</button>
+              <button onClick={() => handleToSetLocalStorage(featuredJobData)} className='mt-3 applyBtn px-5 py-3 rounded text-light fw-bold border-0'>Apply Now</button>
               </div>
             </Col>
-          </Row>
+            </Row>
+          </div>
+        
         );
     };
 

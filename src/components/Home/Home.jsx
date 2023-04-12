@@ -61,7 +61,9 @@ const Home = () => {
             
             <div>
                 <div className='bg-white container mb-5'>
+                        <div>
                         <h2 className='fs-1 pt-5 text-center'>Featured Jobs</h2>
+                        </div>
                        <div>
                             <p className='text-center p-2'>Explore thousands of job opportunities with all the information you need. Its your future.</p>
                        </div>
@@ -70,7 +72,6 @@ const Home = () => {
                             features?.slice(0, showAll? 6 : 4).map(feature => <Featured
                                 key={feature.id}
                                 feature ={feature}
-                                // features = {features}
                             ></Featured>)
                         }
                     </div>
