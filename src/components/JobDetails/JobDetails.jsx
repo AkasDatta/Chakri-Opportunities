@@ -24,6 +24,7 @@ const JobDetails = () => {
         if(exists) {
             setFeaturedJobData(exists || {});
         }
+
     }, [featuredJobs]);
 
     const {job_description, job_responsibilities, educational_requirements, experiences, salary, job_title, phone, email, address} = featuredJobData;
@@ -38,7 +39,7 @@ const JobDetails = () => {
 
         return (
           <div>
-            <Row className='m-5 px-5'>
+            <Row className='mx-5 mt-5'>
             <Col md={8}>
               <Card className='border-0  bg-light'>
                 <Card.Body>

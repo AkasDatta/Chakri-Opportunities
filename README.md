@@ -2,9 +2,9 @@
 
 # Project Title
 ##
-### Job Opportunity is a type of job site that allows you to find and apply for various types of jobs.
+### Chakri-Opportunities is a type of job site that allows you to find and apply for various types of jobs.
 
-##
+## Features
 - Home
 - Statistics
 - Applied Jobs
@@ -18,7 +18,7 @@
 - React Router
 - Recharts
 
-## Local Api
+## Local API
 - category.json
 - jobDetails.json
 
