@@ -1,7 +1,7 @@
 # b7a9-career-hub-AkasDatta
 
 # Project Title
-##
+## Chakri-Opportunities
 ### Chakri-Opportunities is a type of job site that allows you to find and apply for various types of jobs.
 
 ## Features
